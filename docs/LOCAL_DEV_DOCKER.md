@@ -25,6 +25,7 @@ Install these before starting:
 | -------------------------- | --------------------------------------------------------------------------------------------------------- | ---------------- |
 | **Docker Desktop**         | [docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop/)                     | `docker version` |
 | **Node.js** (see `.nvmrc`) | `nvm install`                                                                                             | `node -v`        |
+| **corepack**               | `npm install -g corepack`                                                                                 | `corepack -v`    |
 | **pnpm** v10+              | `corepack enable && corepack prepare pnpm@latest --activate`                                              | `pnpm -v`        |
 | **uv**                     | [docs.astral.sh/uv/getting-started/installation](https://docs.astral.sh/uv/getting-started/installation/) | `uv --version`   |
 | **Git**                    | [git-scm.com](https://git-scm.com)                                                                        | `git --version`  |
